@@ -16,7 +16,7 @@ int main()
 	z1 = (1.0 * (sqrt(2 * b + (2 * sqrt(b * b - 4))))) / (sqrt(b * b - 4) + b + 2);
 	z2 = 1 / sqrt(b + 2);//change one
 	cout << endl;
-	cout << "z1 = " << z1 << endl;
+	cout << "z1 = " << z1 << endl;//changes for push to remotly repo
 	cout << "z2 = " << z2 << endl;
 	cin.get();
 	return 0;
