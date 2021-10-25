@@ -14,9 +14,9 @@ int main()
 	double z2; // результат обчислення 2-го виразу
 	cout << "b = "; cin >> b;
 	z1 = (1.0 * (sqrt(2 * b + (2 * sqrt(b * b - 4))))) / (sqrt(b * b - 4) + b + 2);
-	z2 = 1 / sqrt(b + 2);//change one
+	z2 = 1 / sqrt(b + 2);//change second
 	cout << endl;
-	cout << "z1 = " << z1 << endl;
+	cout << "z1 = " << z1 << endl;//change first
 	cout << "z2 = " << z2 << endl;
 	cin.get();
 	return 0;
